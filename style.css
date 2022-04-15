@@ -1,0 +1,142 @@
+* {
+    box-sizing: border-box; margin: 0; padding: 0;
+}
+
+.container {
+    display: flex;
+    flex-direction: column; text-align: center;
+}
+
+#parent {
+    margin: -10px;
+    padding: -10px;
+}
+
+.div1 { text-align: center; height: 300px; color: white; font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: skyblue; font-size: 70px; line-height: 30px; padding-top: 50px; flex: 50%;
+}
+
+#span1 {
+    font-size: 20px; font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; 
+    color: black;
+}
+
+#image1 {
+    width: 170px; height: 200px; float: left; border-radius: 30px; margin: 70px 0px 0 100px; object-fit: cover; padding: 20px 20px;
+}
+
+h2 {
+    display: flex; justify-content: flex-end; align-items: flex-end; font-size: 30px;
+    margin: 50px 250px 0 0;
+}
+
+p {
+    display: flex; justify-content: flex-end; align-items: flex-end; font-size: 20px;
+    margin: 15px 0px 0 0; padding-right: 100px; 
+}
+
+.div2 { text-align: center; height: 300px; color: skyblue; font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: white; font-size: 25px; line-height: 30px; padding-top: 50px; flex: 50%;
+
+}
+
+#image2 {
+    width: 200px; height: 200px; margin-top: 20px;
+}
+
+h4 {
+    text-align: center; float: center; font-size: 20px;
+}
+
+p {
+    color: black; font-size: 16px; font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; text-align: center; 
+    padding-left: 100px; flex: 50px;
+}
+
+#image3 {
+    width: 200px; height: 190px; margin-top: 20px;
+}
+
+h5 {
+    padding-top: -70px; text-align: center; float: center; font-size: 20px;
+}
+
+#p2 {
+    color: black; font-size: 16px;
+}
+
+.div3 { text-align: center; height: 250px; color: white; font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: skyblue; font-size: 30px; line-height: 40px; padding-top: 20px; flex: 50%;
+
+}
+
+ul {
+    text-align: center; padding-top: 120px;
+}
+
+ul {
+    text-align: center; margin-top: -120px; color: black; font-size: 15px;
+}
+
+ol {
+    text-align: center; margin-top: 10px;
+}
+
+li {
+    margin-top: -10px; font-size: 15px; color: black;
+}
+
+.header3 {
+    text-align: center; color: skyblue;
+}
+
+.header2 {
+    text-align: center; color: skyblue; padding-right: 250px;
+}
+
+.parent {
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+}
+
+#left {
+    display: flex;
+    flex-direction: column;
+}
+
+#right {
+    display: flex;
+    flex-direction: column;
+}
+
+#vaks {
+    text-align: center;
+}
+
+.dare {
+    text-align: center;
+}
+
+#button {
+    background-color: cadetblue; padding: 5px; color: white; border-radius: 5px;
+}
+
+.div5 {
+    text-align: center; background-color: skyblue; line-height: 30px; padding-top: 15px;
+}
+
+.footer {
+    text-align: center;
+    height: 100px;
+    padding: 30px;
+    background-color: skyblue; 
+}
+
+#link {
+    display: inline;
+}
+
+#parag {
+    color: black; text-underline-offset: 0px; text-align: center;
+}
